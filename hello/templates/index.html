@@ -55,7 +55,7 @@
         <td>{{person.age}}</td>
         <td>{{person.maker}}</td>
         <td>{{person.price}}</td>
-    <td><a href="edit/{{person.id}}">Изменить</a> | <a href="delete/{{person.id}}">Удалить</a></td>
+    <td><a class="button-change-delete"  href="edit/{{person.id}}">Изменить</a> | <a class="button-change-delete" href="delete/{{person.id}}">Удалить</a></td>
     </tr>
     {% endfor %}
 </table>

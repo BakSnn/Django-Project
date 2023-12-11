@@ -8,7 +8,15 @@
   text-decoration: none;
   color: MediumSlateBlue;
 }
-
+   .button-change-delete{
+   padding:7px;
+   background-color:#4caf50;;
+   color: white;
+   border-radius:5px;
+   font-size:14px;
+   }
+   .button-change-delete:hover{
+   background-color:#317C34}
 
     .container {
         width: 80%;
@@ -43,7 +51,8 @@
         padding: 10px;
         border-radius: 4px;
     }
-
+    input[type="submit"]:hover{
+    background-color:#317C34}
     h2 {
         margin-top: 30px;
     }
