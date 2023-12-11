@@ -9,6 +9,7 @@
 <body class="container">
 <form method="POST">
     {% csrf_token %}
+    <h1>Изменение данных о продукте</h1>
     <p>
         <label>Категория продукта:</label><br>
         <input type = "text" name="category" value="{{person.category}}"/>
