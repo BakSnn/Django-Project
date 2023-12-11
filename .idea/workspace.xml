@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77b506a0-276f-41cd-95d8-a0d21083de99" name="Changes" comment="Django project">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello/static/images/favicon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hello/templates/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/hello/templates/edit.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +44,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/hello/firstapp/models.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -116,7 +119,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702312093725</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added heading">
+      <option name="closed" value="true" />
+      <created>1702313127942</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702313127942</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Django project">
+      <option name="closed" value="true" />
+      <created>1702313145491</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702313145491</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,6 +163,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="h" />
+    <MESSAGE value="added heading" />
     <MESSAGE value="Django project" />
     <option name="LAST_COMMIT_MESSAGE" value="Django project" />
   </component>
