@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+{%load static%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Простейшая модель в Django</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+</head>
+<body class="container">
+<p><a href="home/">Домашняя страница</a></p>
+<form method="POST" action="create/">
+    {% csrf_token%}
+    <h1>Пищевой товар</h1>
+    <p>
+        <label>Категория продукта:</label><br>
+        <input type = "text" name="category"/>
+    </p>
+    <p>
+        <label>Введите название товара:</label><br>
+        <input type = "text" name="name"/>
+    </p>
+    <p>
+        <label>Введите дату покупки:</label><br>
+        <input type="date" name = "age"/>
+    </p>
+    <p>
+        <label>Введите производителя:</label><br>
+        <input type = "text" name="maker"/>
+    </p>
+    <p>
+        <label>Введите цену за ед. товара:</label><br>
+        <input type="number" step = "any" name = "price"/>
+    </p>
+    <input type="submit" value="Сохранить">
+</form>
+
+{%if people.count > 0 %}
+<h2>Товар пищевой </h2>
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Категория продукта</th>
+        <th>Наименование</th>
+        <th>Дата покупки</th>
+        <th>Производитель</th>
+        <th>Цена за ед.</th>
+        <th>Действие</th>
+    </tr>
+    {% for person in people %}
+    <tr>
+        <td>{{person.id}}</td>
+        <td>{{person.category}}</td>
+        <td>{{person.name}}</td>
+        <td>{{person.age}}</td>
+        <td>{{person.maker}}</td>
+        <td>{{person.price}}</td>
+    <td><a href="edit/{{person.id}}">Изменить</a> | <a href="delete/{{person.id}}">Удалить</a></td>
+    </tr>
+    {% endfor %}
+</table>
+{% endif %}
+</body>
+</html>

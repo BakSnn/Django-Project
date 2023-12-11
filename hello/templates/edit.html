@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+{%load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Модели Django</title>
+     <link href="{% static 'css/edit.css' %}" rel="stylesheet">
+</head>
+<body class="container">
+<form method="POST">
+    {% csrf_token %}
+    <p>
+        <label>Категория продукта:</label><br>
+        <input type = "text" name="category" value="{{person.category}}"/>
+    </p>
+    <p>
+        <label>Введите наименование</label><br>
+        <input type="text" name="name" value="{{person.name}}"/>
+    </p>
+ <p>
+        <label>Введите дата покупки</label><br>
+        <input type="date" name="age" value="{{person.age}}"/>
+    </p>
+    <p>
+        <label>Введите производителя</label><br>
+        <input type="text" name="maker" value="{{person.maker}}"/>
+    </p>
+ <p>
+        <label>Введите цену за ед.</label><br>
+        <input type="number" step = "any" name="price" value="{{person.price}}"/>
+    </p>
+    <input type = "submit" value="Сохранить"/>
+</form>
+
+</body>
+</html>

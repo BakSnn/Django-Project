@@ -4,7 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77b506a0-276f-41cd-95d8-a0d21083de99" name="Changes" comment="Django" />
+    <list default="true" id="77b506a0-276f-41cd-95d8-a0d21083de99" name="Changes" comment="Django">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Pr_Web_1_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello/firstapp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello/firstapp/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello/firstapp/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello/firstapp/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello/firstapp/migrations/0002_person_maker_person_price.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello/firstapp/migrations/0003_person_category_alter_person_age_alter_person_maker_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello/firstapp/migrations/0004_alter_person_price.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello/firstapp/migrations/0005_alter_person_age.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello/firstapp/migrations/0006_alter_person_category.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello/firstapp/migrations/0007_alter_person_age.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello/firstapp/migrations/0008_alter_person_price.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello/firstapp/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello/firstapp/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello/firstapp/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello/firstapp/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello/hello/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello/hello/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello/hello/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello/hello/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello/hello/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello/new_db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello/static/css/edit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello/static/css/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello/static/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello/static/images/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello/static/images/22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello/templates/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +76,9 @@
     <option name="RESET_MODE" value="MIXED" />
     <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/hello/firstapp/models.py" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -48,18 +91,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/baska/PycharmProjects/Pr_Web_1_2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/baska/PycharmProjects/Pr_Web_1_2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\baska\PycharmProjects\Pr_Web_1\hello" />
@@ -94,7 +137,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
