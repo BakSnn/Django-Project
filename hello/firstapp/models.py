@@ -3,7 +3,7 @@ from django.db import models
 class Person(models.Model):
 
     name = models.CharField(max_length=20)
-    age = models.TextField()
+    age = models.IntegerField()
     maker = models.TextField(max_length=20, default='')
     price = models.FloatField(max_length=10, default='')
     category = models.CharField(max_length=20)
