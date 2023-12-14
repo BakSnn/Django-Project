@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77b506a0-276f-41cd-95d8-a0d21083de99" name="Changes" comment="Django Project">
+    <list default="true" id="77b506a0-276f-41cd-95d8-a0d21083de99" name="Changes" comment="changed models">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hello/firstapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello/firstapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/firstapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello/firstapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/hello/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello/hello/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/hello/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello/hello/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hello/new_db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/hello/new_db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/hello/static/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/templates/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/hello/templates/edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hello/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hello/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -76,6 +81,8 @@
       <recent name="C:\Users\baska\PycharmProjects\Pr_Web_1\hello" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\baska\PycharmProjects\Pr_Web_1_2\hello\photos" />
+      <recent name="C:\Users\baska\PycharmProjects\Pr_Web_1_2\hello\static\photo" />
       <recent name="C:\Users\baska\PycharmProjects\Pr_Web_1_2\hello\static\images" />
       <recent name="C:\Users\baska\PycharmProjects\Pr_Web_1\hello\static\images" />
     </key>
@@ -217,7 +224,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702368464731</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="changed models">
+      <option name="closed" value="true" />
+      <created>1702449373540</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1702449373540</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -249,10 +264,10 @@
     <MESSAGE value="Django project" />
     <MESSAGE value="added favicon" />
     <MESSAGE value="added favicon and renamed titles" />
-    <MESSAGE value="changed models" />
     <MESSAGE value="    added new styles for button" />
     <MESSAGE value="changed styles" />
     <MESSAGE value="Django Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Django Project" />
+    <MESSAGE value="changed models" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed models" />
   </component>
 </project>
