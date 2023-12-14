@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77b506a0-276f-41cd-95d8-a0d21083de99" name="Changes" comment="changed models">
+    <list default="true" id="77b506a0-276f-41cd-95d8-a0d21083de99" name="Changes" comment="Edited labels">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello/firstapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello/firstapp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello/firstapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello/firstapp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello/hello/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello/hello/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello/hello/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello/hello/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello/new_db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/hello/new_db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/hello/static/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hello/templates/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/hello/templates/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/hello/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hello/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hello/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -232,7 +227,39 @@
       <option name="project" value="LOCAL" />
       <updated>1702449373540</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="the addition of a product photo has been implemented">
+      <option name="closed" value="true" />
+      <created>1702580105493</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1702580105493</updated>
+    </task>
+    <task id="LOCAL-00019" summary="new styles">
+      <option name="closed" value="true" />
+      <created>1702580120094</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1702580120094</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Django Project">
+      <option name="closed" value="true" />
+      <created>1702580133061</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1702580133061</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Edited labels">
+      <option name="closed" value="true" />
+      <created>1702585523014</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1702585523014</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -266,8 +293,11 @@
     <MESSAGE value="added favicon and renamed titles" />
     <MESSAGE value="    added new styles for button" />
     <MESSAGE value="changed styles" />
-    <MESSAGE value="Django Project" />
     <MESSAGE value="changed models" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed models" />
+    <MESSAGE value="the addition of a product photo has been implemented" />
+    <MESSAGE value="new styles" />
+    <MESSAGE value="Django Project" />
+    <MESSAGE value="Edited labels" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edited labels" />
   </component>
 </project>
