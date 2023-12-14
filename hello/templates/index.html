@@ -9,7 +9,7 @@
 </head>
 <body class="container">
 <p><a href="home/">Домашняя страница</a></p>
-<form method="POST" action="create/">
+<form method="POST" action="create/" enctype="multipart/form-data">
     {% csrf_token%}
     <h1>Пищевой товар</h1>
     <p>
@@ -32,6 +32,8 @@
         <label>Введите цену за ед. товара:</label><br>
         <input type="number" step = "any" name = "price"/>
     </p>
+<label id="photo">Фото:</label>
+    <input type="file" name="photo">
     <input type="submit" value="Сохранить">
 </form>
 
@@ -45,6 +47,7 @@
         <th>Дата покупки</th>
         <th>Производитель</th>
         <th>Цена за ед.</th>
+        <th>Фото</th>
         <th>Действие</th>
     </tr>
     {% for person in people %}
@@ -55,6 +58,7 @@
         <td>{{person.age}}</td>
         <td>{{person.maker}}</td>
         <td>{{person.price}}</td>
+        <td><img class="media" src="media/{{person.photo}}"/></td>
     <td><a class="button-change-delete"  href="edit/{{person.id}}">Изменить</a> | <a class="button-change-delete" href="delete/{{person.id}}">Удалить</a></td>
     </tr>
     {% endfor %}

@@ -8,7 +8,7 @@
      <link rel="shortcut icon" type="image/png" href="{% static 'images/favicon.png' %}" >
 </head>
 <body class="container">
-<form method="POST">
+<form method="POST" enctype="multipart/form-data">
     {% csrf_token %}
     <h1>Изменение данных о продукте</h1>
     <p>
@@ -31,6 +31,9 @@
         <label>Введите цену за ед.</label><br>
         <input type="number" step = "any" name="price" value="{{person.price}}"/>
     </p>
+    <label id="photo">Фото:</label>
+    <input type="file" name="photo">
+    <input type="submit" value="Сохранить">
     <input type = "submit" value="Сохранить"/>
 </form>
 
